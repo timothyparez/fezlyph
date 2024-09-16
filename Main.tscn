@@ -1,0 +1,307 @@
+[gd_scene load_steps=32 format=3 uid="uid://defvue11sfxqc"]
+
+[ext_resource type="Texture2D" uid="uid://yp1jth7fp6x3" path="res://Fez-small.png" id="1_agyve"]
+[ext_resource type="Script" path="res://main.gd" id="1_v1mbt"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7yrud"]
+atlas = ExtResource("1_agyve")
+region = Rect2(2, 2, 60, 60)
+margin = Rect2(0, 4, 0, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yngqv"]
+atlas = ExtResource("1_agyve")
+region = Rect2(64, 2, 60, 60)
+margin = Rect2(0, 4, 0, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5wyjk"]
+atlas = ExtResource("1_agyve")
+region = Rect2(126, 2, 60, 60)
+margin = Rect2(0, 4, 0, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8l6ry"]
+atlas = ExtResource("1_agyve")
+region = Rect2(188, 2, 60, 60)
+margin = Rect2(0, 4, 0, 4)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_hl8af"]
+load_path = "res://.godot/imported/Fez-small.png-eaf08c35257cb891f946a56454b2481e.ctex"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ysie0"]
+atlas = SubResource("CompressedTexture2D_hl8af")
+region = Rect2(250, 2, 60, 60)
+margin = Rect2(0, 4, 0, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bj1co"]
+atlas = ExtResource("1_agyve")
+region = Rect2(312, 2, 60, 60)
+margin = Rect2(0, 4, 0, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m47xs"]
+atlas = ExtResource("1_agyve")
+region = Rect2(2, 64, 60, 60)
+margin = Rect2(0, 4, 0, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qk137"]
+atlas = ExtResource("1_agyve")
+region = Rect2(64, 64, 60, 60)
+margin = Rect2(0, 4, 0, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t8iwb"]
+atlas = ExtResource("1_agyve")
+region = Rect2(126, 64, 60, 60)
+margin = Rect2(0, 4, 0, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gvmcg"]
+atlas = ExtResource("1_agyve")
+region = Rect2(188, 64, 60, 60)
+margin = Rect2(0, 4, 0, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ikykp"]
+atlas = ExtResource("1_agyve")
+region = Rect2(250, 64, 60, 60)
+margin = Rect2(0, 4, 0, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wmx3u"]
+atlas = ExtResource("1_agyve")
+region = Rect2(312, 64, 60, 60)
+margin = Rect2(0, 4, 0, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o1lop"]
+atlas = ExtResource("1_agyve")
+region = Rect2(2, 126, 60, 60)
+margin = Rect2(0, 4, 0, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xceg1"]
+atlas = ExtResource("1_agyve")
+region = Rect2(64, 126, 60, 60)
+margin = Rect2(0, 4, 0, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3a1sn"]
+atlas = ExtResource("1_agyve")
+region = Rect2(126, 126, 60, 60)
+margin = Rect2(0, 4, 0, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k070i"]
+atlas = ExtResource("1_agyve")
+region = Rect2(188, 126, 60, 60)
+margin = Rect2(0, 4, 0, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ut1nl"]
+atlas = ExtResource("1_agyve")
+region = Rect2(250, 126, 60, 60)
+margin = Rect2(0, 4, 0, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2yju2"]
+atlas = ExtResource("1_agyve")
+region = Rect2(312, 126, 60, 60)
+margin = Rect2(0, 4, 0, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t8qyk"]
+atlas = ExtResource("1_agyve")
+region = Rect2(2, 188, 60, 60)
+margin = Rect2(0, 4, 0, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_af26n"]
+atlas = ExtResource("1_agyve")
+region = Rect2(64, 188, 60, 60)
+margin = Rect2(0, 4, 0, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ii00o"]
+atlas = ExtResource("1_agyve")
+region = Rect2(126, 188, 60, 60)
+margin = Rect2(0, 4, 0, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xovwa"]
+atlas = ExtResource("1_agyve")
+region = Rect2(188, 188, 60, 60)
+margin = Rect2(0, 4, 0, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bg2ib"]
+atlas = ExtResource("1_agyve")
+region = Rect2(250, 188, 60, 60)
+margin = Rect2(0, 4, 0, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tdxkd"]
+atlas = ExtResource("1_agyve")
+region = Rect2(312, 188, 60, 60)
+margin = Rect2(0, 4, 0, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ei8w4"]
+atlas = ExtResource("1_agyve")
+region = Rect2(2, 250, 60, 60)
+margin = Rect2(0, 4, 0, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k2a14"]
+atlas = ExtResource("1_agyve")
+region = Rect2(64, 250, 60, 60)
+margin = Rect2(0, 4, 0, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6vwy7"]
+atlas = ExtResource("1_agyve")
+region = Rect2(126, 250, 60, 60)
+margin = Rect2(0, 4, 0, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hkqcl"]
+atlas = ExtResource("1_agyve")
+region = Rect2(188, 250, 60, 60)
+margin = Rect2(0, 4, 0, 4)
+
+[node name="Translator" type="Control" node_paths=PackedStringArray("target_text_control")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_v1mbt")
+target_text_control = NodePath("VBoxContainer/MarginContainer/TextEdit")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 4
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 4
+theme_override_constants/margin_bottom = 2
+
+[node name="TextEdit" type="LineEdit" parent="VBoxContainer/MarginContainer"]
+layout_mode = 2
+size_flags_vertical = 0
+placeholder_text = "Press the glyphs to start translating"
+editable = false
+
+[node name="CenterContainer" type="CenterContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer/CenterContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 2
+theme_override_constants/margin_top = 2
+theme_override_constants/margin_right = 2
+theme_override_constants/margin_bottom = 2
+
+[node name="GridContainer" type="GridContainer" parent="VBoxContainer/CenterContainer/MarginContainer"]
+layout_mode = 2
+columns = 4
+
+[node name="A" type="TextureButton" parent="VBoxContainer/CenterContainer/MarginContainer/GridContainer" groups=["LetterButtons"]]
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_7yrud")
+
+[node name="B" type="TextureButton" parent="VBoxContainer/CenterContainer/MarginContainer/GridContainer" groups=["LetterButtons"]]
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_yngqv")
+
+[node name="C" type="TextureButton" parent="VBoxContainer/CenterContainer/MarginContainer/GridContainer" groups=["LetterButtons"]]
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_5wyjk")
+
+[node name="D" type="TextureButton" parent="VBoxContainer/CenterContainer/MarginContainer/GridContainer" groups=["LetterButtons"]]
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_8l6ry")
+
+[node name="E" type="TextureButton" parent="VBoxContainer/CenterContainer/MarginContainer/GridContainer" groups=["LetterButtons"]]
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_ysie0")
+
+[node name="F" type="TextureButton" parent="VBoxContainer/CenterContainer/MarginContainer/GridContainer" groups=["LetterButtons"]]
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_bj1co")
+
+[node name="G" type="TextureButton" parent="VBoxContainer/CenterContainer/MarginContainer/GridContainer" groups=["LetterButtons"]]
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_m47xs")
+
+[node name="H" type="TextureButton" parent="VBoxContainer/CenterContainer/MarginContainer/GridContainer" groups=["LetterButtons"]]
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_qk137")
+
+[node name="I" type="TextureButton" parent="VBoxContainer/CenterContainer/MarginContainer/GridContainer" groups=["LetterButtons"]]
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_t8iwb")
+
+[node name="J" type="TextureButton" parent="VBoxContainer/CenterContainer/MarginContainer/GridContainer" groups=["LetterButtons"]]
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_gvmcg")
+
+[node name="K" type="TextureButton" parent="VBoxContainer/CenterContainer/MarginContainer/GridContainer" groups=["LetterButtons"]]
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_ikykp")
+
+[node name="L" type="TextureButton" parent="VBoxContainer/CenterContainer/MarginContainer/GridContainer" groups=["LetterButtons"]]
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_wmx3u")
+
+[node name="M" type="TextureButton" parent="VBoxContainer/CenterContainer/MarginContainer/GridContainer" groups=["LetterButtons"]]
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_o1lop")
+
+[node name="N" type="TextureButton" parent="VBoxContainer/CenterContainer/MarginContainer/GridContainer" groups=["LetterButtons"]]
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_xceg1")
+
+[node name="O" type="TextureButton" parent="VBoxContainer/CenterContainer/MarginContainer/GridContainer" groups=["LetterButtons"]]
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_3a1sn")
+
+[node name="P" type="TextureButton" parent="VBoxContainer/CenterContainer/MarginContainer/GridContainer" groups=["LetterButtons"]]
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_k070i")
+
+[node name="Q" type="TextureButton" parent="VBoxContainer/CenterContainer/MarginContainer/GridContainer" groups=["LetterButtons"]]
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_ut1nl")
+
+[node name="R" type="TextureButton" parent="VBoxContainer/CenterContainer/MarginContainer/GridContainer" groups=["LetterButtons"]]
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_2yju2")
+
+[node name="S" type="TextureButton" parent="VBoxContainer/CenterContainer/MarginContainer/GridContainer" groups=["LetterButtons"]]
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_t8qyk")
+
+[node name="T" type="TextureButton" parent="VBoxContainer/CenterContainer/MarginContainer/GridContainer" groups=["LetterButtons"]]
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_af26n")
+
+[node name="U" type="TextureButton" parent="VBoxContainer/CenterContainer/MarginContainer/GridContainer" groups=["LetterButtons"]]
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_ii00o")
+
+[node name="V" type="TextureButton" parent="VBoxContainer/CenterContainer/MarginContainer/GridContainer" groups=["LetterButtons"]]
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_xovwa")
+
+[node name="W" type="TextureButton" parent="VBoxContainer/CenterContainer/MarginContainer/GridContainer" groups=["LetterButtons"]]
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_bg2ib")
+
+[node name="X" type="TextureButton" parent="VBoxContainer/CenterContainer/MarginContainer/GridContainer" groups=["LetterButtons"]]
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_tdxkd")
+
+[node name="Y" type="TextureButton" parent="VBoxContainer/CenterContainer/MarginContainer/GridContainer" groups=["LetterButtons"]]
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_ei8w4")
+
+[node name="Z" type="TextureButton" parent="VBoxContainer/CenterContainer/MarginContainer/GridContainer" groups=["LetterButtons"]]
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_k2a14")
+
+[node name="space" type="TextureButton" parent="VBoxContainer/CenterContainer/MarginContainer/GridContainer"]
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_6vwy7")
+
+[node name="delete" type="TextureButton" parent="VBoxContainer/CenterContainer/MarginContainer/GridContainer"]
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_hkqcl")
+
+[connection signal="pressed" from="VBoxContainer/CenterContainer/MarginContainer/GridContainer/space" to="." method="_on_space_pressed"]
+[connection signal="pressed" from="VBoxContainer/CenterContainer/MarginContainer/GridContainer/delete" to="." method="_on_delete_pressed"]

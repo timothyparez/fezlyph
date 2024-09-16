@@ -1,0 +1,39 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Fezlyph"
+run/main_scene="res://Main.tscn"
+config/features=PackedStringArray("4.3", "Mobile")
+run/low_processor_mode=true
+boot_splash/show_image=false
+boot_splash/fullsize=false
+boot_splash/use_filter=false
+config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=600
+window/size/viewport_height=1066
+window/stretch/mode="canvas_items"
+window/stretch/scale=2.0
+window/handheld/orientation=1
+window/ios/allow_high_refresh_rate=false
+
+[dotnet]
+
+project/assembly_name="Fezlyph"
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
+renderer/rendering_method="mobile"
+textures/vram_compression/import_etc2_astc=true
